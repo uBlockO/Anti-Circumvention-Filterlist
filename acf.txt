@@ -4,4 +4,4 @@
 ! Author: uBlock-user
 ! Expires: 1 day
 
-webmd.com,sportingnews.com##+js(remove-inline-script, /INSTART/)
+webmd.com,sportingnews.com,edmunds.com##+js(remove-inline-script, /INSTART/)
