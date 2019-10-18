@@ -1,1 +1,7 @@
+[uBlock Origin 1.22.5rc6]
+! Title: Anti-Circumvention-Filterlist
+! Homepage: https://github.com/uBlock-user/Anti-Circumvention-Filterlist
+! Author: uBlock-user
+! Expires: 1 day
+
 webmd.com,sportingnews.com##+js(remove-inline-script, /INSTART/)
