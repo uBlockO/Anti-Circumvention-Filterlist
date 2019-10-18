@@ -3,7 +3,7 @@
 [![syntax](https://img.shields.io/badge/syntax-uBlock%20Origin-%23c61300.svg)](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax)
 
 # Anti-Circumvention-Filterlist
-A public filterlist for websites engaging in anti-user behaviour. English websites only.
+A filterlist for websites engaging in anti-user behaviour. English websites only.
 
 Direct link: [https://raw.githubusercontent.com/uBlock-user/Anti-Circumvention-Filterlist/master/acf.txt](https://raw.githubusercontent.com/uBlock-user/Anti-Circumvention-Filterlist/master/acf.txt)
 
