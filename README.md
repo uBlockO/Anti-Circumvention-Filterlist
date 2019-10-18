@@ -5,7 +5,7 @@
 # Anti-Circumvention-Filterlist
 A public filterlist for websites engaging in anti-user behaviour. English websites only.
 
-Direct link: [https://raw.githubusercontent.com/uBlock-user/Anti-Circumvention-Filterlist/master/acf.txt(https://raw.githubusercontent.com/uBlock-user/Anti-Circumvention-Filterlist/master/acf.txt)
+Direct link: [https://raw.githubusercontent.com/uBlock-user/Anti-Circumvention-Filterlist/master/acf.txt](https://raw.githubusercontent.com/uBlock-user/Anti-Circumvention-Filterlist/master/acf.txt)
 
 # Requirements 
 
