@@ -7,4 +7,4 @@
 msn.com,webmd.com,sportingnews.com,edmunds.com,cnet.com,gamespot.com,cbssports.com,wetteronline.de##+js(remove-inline-script, /INSTART/)
 uploadship.com##+js(remove-inline-script, location.replace)
 uploadship.com##+js(nano-sib)
-
+adblockplus.org##+js(remove-inline-style, async-hide)
