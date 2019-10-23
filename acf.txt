@@ -6,7 +6,7 @@
 
 msn.com,webmd.com,sportingnews.com,edmunds.com,cnet.com,gamespot.com,cbssports.com,wetteronline.de##+js(remove-inline-script, /INSTART/)
 uploadship.com##+js(remove-inline-script, location.replace)
-uploadship.com##+js(nano-sib, , 1200)
+uploadship.com##+js(nano-sib)
 adblockplus.org##+js(remove-inline-style, async-hide)
 ign.com##+js(remove-inline-script, google_ad_status)
 gogoanime.io##+js(remove-inline-script, i=null)
