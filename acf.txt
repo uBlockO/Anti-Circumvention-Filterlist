@@ -14,5 +14,4 @@ arstechnica.com##+js(ra, href, [href*="amzn.to"]\, [href*="click.linksynergy.com
 mangahosted.com##+js(remove-inline-script, adblock)
 @@||megaup.net^$generichide,badfilter
 megaup.net##+js(remove-inline-script, /adblock|onerror/)
-megaup.net#@#[style="display: block;"]
 ||photobucket.com/*/sweetalert*.js^$script,1p
