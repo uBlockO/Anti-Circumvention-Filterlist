@@ -16,3 +16,4 @@ mangahosted.com##+js(remove-inline-script, adblock)
 megaup.net##+js(remove-inline-script, /adblock|onerror/)
 ||photobucket.com/*/sweetalert*^$script,stylesheet,1p
 kroger.com,meijer.com##+js(eremove, #wishabi-tracking-protection-modal\, .goog-modalpopup-bg)
+||googlesyndication.com/*/adsbygoogle.js$script,redirect-rule=googlesyndication_adsbygoogle.js,domain=aeonax.com
