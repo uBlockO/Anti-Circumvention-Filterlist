@@ -19,3 +19,4 @@ kroger.com,meijer.com##+js(eremove, #wishabi-tracking-protection-modal\, .goog-m
 ||googlesyndication.com/*/adsbygoogle.js$script,redirect-rule=googlesyndication_adsbygoogle.js,domain=aeonax.com
 comingsoon.net##+js(rm-attr, href|onclick|target, [href^="https://www.amazon.com/"])
 multiup.org##+js(multiup, form[action], button[link])
+multiup.org##+js(eremove, .text-center.alert-info\, .text-dark.text-center.panel-body)
