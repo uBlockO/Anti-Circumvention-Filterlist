@@ -1,4 +1,4 @@
-[uBlock Origin 1.23.1b7]
+[uBlock Origin 1.23.1b18]
 ! Title: Anti-Circumvention-Filterlist
 ! Homepage: https://github.com/uBlock-user/Anti-Circumvention-Filterlist
 ! Author: uBlock-user
@@ -20,3 +20,4 @@ kroger.com,meijer.com##+js(eremove, #wishabi-tracking-protection-modal\, .goog-m
 comingsoon.net##+js(rm-attr, href|onclick|target, [href^="https://www.amazon.com/"])
 multiup.org##+js(multiup, form[action], button[link])
 multiup.org##+js(eremove, .text-center.alert-info\, .text-dark.text-center.panel-body)
+salahstream.ml##+js(remove-inline-script, /contextmenu|adsense|onkeypress/)
