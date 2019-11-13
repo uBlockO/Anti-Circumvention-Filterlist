@@ -1,4 +1,4 @@
-[uBlock Origin 1.23.1b18]
+[uBlock Origin]
 ! Title: Anti-Circumvention-Filterlist
 ! Homepage: https://github.com/uBlock-user/Anti-Circumvention-Filterlist
 ! Author: uBlock-user
