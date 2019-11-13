@@ -21,3 +21,5 @@ comingsoon.net##+js(rm-attr, href|onclick|target, [href^="https://www.amazon.com
 multiup.org##+js(multiup, form[action], button[link])
 multiup.org##+js(eremove, .text-center.alert-info\, .text-dark.text-center.panel-body)
 salahstream.ml##+js(remove-inline-script, /contextmenu|adsense|onkeypress/)
+bloomberg.com###graphics-paywall-overlay
+bloomberg.com##body:style(overflow: auto !important)
