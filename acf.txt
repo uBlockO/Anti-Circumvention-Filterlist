@@ -28,3 +28,5 @@ oltnertagblatt.ch##+js(add-elem, #LhlMHvcspPbf, none)
 washingtonpost.com##+js(remove-inline-script, adblock)
 ||i.imgur.com/*.gif^$3p
 ||trello-attachments.s3.amazonaws.com^$3p
+theglobeandmail.com##+js(set, tgam.keytar, null)
+theglobeandmail.com##+js(eremove, #top-fullwidth-area > .pb-container)
