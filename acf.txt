@@ -24,7 +24,7 @@ salahstream.ml##+js(remove-inline-script, /adsense|onkeypress/)
 bloomberg.com##+js(eremove, #graphics-paywall-overlay)
 bloomberg.com##body:style(overflow: auto !important)
 bloomberg.com##+js(nosiif, clearInterval)
-oltnertagblatt.ch##+js(add-elem, #LhlMHvcspPbf, none)
+oltnertagblatt.ch##+js(add-elem, #LhlMHvcspPbf, none, important)
 washingtonpost.com##+js(remove-inline-script, adblock)
 ||i.imgur.com/*.gif^$3p
 ||trello-attachments.s3.amazonaws.com^$3p
