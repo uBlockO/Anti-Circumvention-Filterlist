@@ -30,3 +30,5 @@ washingtonpost.com##+js(remove-inline-script, adblock)
 ||trello-attachments.s3.amazonaws.com^$3p
 theglobeandmail.com##+js(set, tgam.keytar, null)
 theglobeandmail.com##+js(eremove, #top-fullwidth-area > .pb-container)
+tcpvpn.com##+js(eremove, #blockblockA)
+tcpvpn.com###blockblockB:style(display: block !important)
