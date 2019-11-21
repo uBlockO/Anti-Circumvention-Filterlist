@@ -33,3 +33,5 @@ theglobeandmail.com##+js(eremove, #top-fullwidth-area > .pb-container)
 tcpvpn.com##+js(eremove, #blockblockA)
 tcpvpn.com###blockblockB:style(display: block !important)
 tatort.tube##+js(ro, adTest1, null)
+mac-torrent-download.net##+js(cookie-set, glx_pp_14617_201813106, true, 200)
+||cataspboa.site^$important,3p
