@@ -8,7 +8,6 @@ msn.com,webmd.com,sportingnews.com,edmunds.com,cnet.com,gamespot.com,cbssports.c
 uploadship.com##+js(remove-inline-script, location.replace)
 uploadship.com##+js(nano-sib, /.?/, 1000, 0.01)
 adblockplus.org##+js(remove-inline-style, async-hide)
-ign.com##+js(remove-inline-script, google_ad)
 gogoanime.io##+js(remove-inline-script, i=null)
 arstechnica.com##+js(ra, href, [href*="amzn.to"]\, [href*="click.linksynergy.com"])
 mangahosted.com##+js(remove-inline-script, adblock)
