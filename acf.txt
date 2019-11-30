@@ -22,7 +22,7 @@ salahstream.ml##+js(remove-inline-script, /adsense|onkeypress/)
 bloomberg.com##+js(eremove, #graphics-paywall-overlay)
 bloomberg.com##body:style(overflow: auto !important)
 bloomberg.com##+js(nosiif, clearInterval)
-oltnertagblatt.ch##+js(add-elem, #LhlMHvcspPbf, none, important)
+oltnertagblatt.ch##+js(add-elem, #LhlMHvcspPbf, none)
 washingtonpost.com##+js(remove-inline-script, adblock)
 ||i.imgur.com/*.gif^$3p
 ||trello-attachments.s3.amazonaws.com^$3p
@@ -36,3 +36,4 @@ mac-torrent-download.net##+js(cookie-set, glx_pp_14617_201813106, true, 200)
 mac-torrent-download.net##+js(eremove, #btn-container)
 ign.com##^script:has-text(g02)
 answers.com##+js(remove-inline-script, dataLayer)
+hentaihaven.xxx##+js(add-elem, #HGNwWIrhtudE, none)
