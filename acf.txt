@@ -37,3 +37,6 @@ mac-torrent-download.net##+js(eremove, #btn-container)
 ign.com##^script:has-text(g02)
 answers.com##+js(remove-inline-script, dataLayer)
 hentaihaven.xxx##+js(add-elem, #HGNwWIrhtudE, none)
+thenewstribune.com##^script:has-text(apxyRedirect)
+thenewstribune.com##+js(eremove, script)
+thenewstribune.com###subscription-cta-container
