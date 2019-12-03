@@ -39,3 +39,4 @@ answers.com##+js(remove-inline-script, dataLayer)
 hentaihaven.xxx##+js(add-elem, #HGNwWIrhtudE, none)
 thenewstribune.com##^script:has-text(apxyRedirect)
 thenewstribune.com##+js(eremove, script\, #subscription-cta-container)
+4lpha.one###adsense-consent
