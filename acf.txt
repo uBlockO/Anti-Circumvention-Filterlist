@@ -42,3 +42,4 @@ thenewstribune.com##+js(eremove, script\, #subscription-cta-container)
 4lpha.one###adsense-consent
 ||sendtonews.com^$3p
 chron.com##+js(eremove, #top-300)
+tele-gratuit.net##+js(set, adblock, true)
