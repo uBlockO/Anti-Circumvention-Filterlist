@@ -23,6 +23,7 @@ bloomberg.com##body:style(overflow: auto !important)
 bloomberg.com##+js(nosiif, clearInterval)
 oltnertagblatt.ch##+js(add-elem, #LhlMHvcspPbf, none)
 washingtonpost.com##+js(remove-inline-script, adblock)
+washingtonpost.com##+js(eremove, #wallIframe)
 ||i.imgur.com/*.gif^$3p
 ||trello-attachments.s3.amazonaws.com^$3p
 theglobeandmail.com##+js(set, tgam.keytar, null)
