@@ -56,4 +56,3 @@ alliptvlinks.com##html:style(overflow: auto !important)
 lordoftheseries.gr##+js(remove-inline-style, wpSuperSnow)
 hackintosh.computer##+js(remove-div-tag, /preloadstyle/)
 nyafilmer.*##body > [class^="_"]:style(z-index: -3000 !important)
-nyafilmer.*##[href*=".html"]
