@@ -2,7 +2,7 @@
 ! Title: Anti-Circumvention-Filterlist
 ! Homepage: https://github.com/uBlock-user/Anti-Circumvention-Filterlist
 ! Author: uBlock-user
-! Expires: 1 day
+! Expires: 4 days
 
 webmd.com,sportingnews.com,edmunds.com,cnet.com,gamespot.com,cbssports.com,wetteronline.de##+js(remove-inline-script, /INSTART/)
 uploadship.com##+js(remove-inline-script, location.replace)
