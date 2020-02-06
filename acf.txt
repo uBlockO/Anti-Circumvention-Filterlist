@@ -67,5 +67,5 @@ reevown.com##+js(eremove, .copyright > .card > .card-body\, #babasbmsgx)
 reevown.com##+js(aeld, mouseover)
 reevown.com##+js(nano-stb, /.?/, 1000, 0.02)
 ieee.org##+js(remove-div-tag, slashpage)
-cheatsquad.gg##.check
+cheatsquad.gg##+ks(eremove, .check)
 cheatsquad.gg##.seek:style(display: block !important)
