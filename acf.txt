@@ -71,3 +71,4 @@ cheatsquad.gg##+js(eremove, .check)
 cheatsquad.gg##.seek:style(display: block !important)
 digitalcameraworld.com##^script:has-text(Promise)
 thewizardsmanse.com##+js(set, Running, 10)
+||missoulian.com/*/subscription.js$script,1p
