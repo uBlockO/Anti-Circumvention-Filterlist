@@ -69,6 +69,6 @@ reevown.com##+js(nano-stb, /.?/, 1000, 0.02)
 ieee.org##+js(remove-div-tag, slashpage)
 cheatsquad.gg##+js(eremove, .check)
 cheatsquad.gg##.seek:style(display: block !important)
-digitalcameraworld.com,livescience.com##^script:has-text(Promise)
+livescience.com##+js(remove-inline-script, /cct)
 thewizardsmanse.com##+js(set, Running, 10)
 ||missoulian.com/*/subscription.js$script,1p
