@@ -7,7 +7,6 @@
 webmd.com,sportingnews.com,edmunds.com,cnet.com,gamespot.com,cbssports.com,wetteronline.de##+js(remove-inline-script, /INSTART/)
 uploadship.com##+js(remove-inline-script, location.replace)
 msn.com##^script:has-text(/INSTART/)
-adblockplus.org##+js(remove-node, async-hide, style)
 gogoanime.io##+js(remove-inline-script, i=null)
 arstechnica.com##+js(ra, href, [href*="amzn.to"]\, [href*="click.linksynergy.com"])
 mangahosted.com##+js(remove-inline-script, adblock)
