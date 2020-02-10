@@ -72,3 +72,5 @@ cheatsquad.gg##.seek:style(display: block !important)
 livescience.com##+js(remove-inline-script, /cct)
 thewizardsmanse.com##+js(set, Running, 10)
 ||missoulian.com/*/subscription.js$script,1p
+numbeo.com##+js(set, shallrunads, true)
+numbeo.com##+js(eremove, .ui-dialog)
