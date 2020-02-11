@@ -72,3 +72,6 @@ thewizardsmanse.com##+js(set, Running, 10)
 ||missoulian.com/*/subscription.js$script,1p
 numbeo.com##+js(set, shallrunads, true)
 numbeo.com##+js(eremove, .ui-dialog)
+animemobile.com##+js(eremove, .video-ad)
+animemobile.com###html5_video_div:style(position: relative !important; top: 0 !important; height: 350px !important)
+animemobile.com##+js(tog-attr, controls, video)
