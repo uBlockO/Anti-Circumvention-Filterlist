@@ -78,3 +78,4 @@ animemobile.com###html5_video_div:style(position: relative !important; top: 0 !i
 animemobile.com##+js(tog-attr, controls, video)
 finance.i.ua##+js(remove-node, alert, script)
 viptools.es##+js(set, a52fb7109de24b62c9351392a4789f6f3, true)
+vsetv.com##+js(aopr, document.styleSheets)
