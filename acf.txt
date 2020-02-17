@@ -81,3 +81,4 @@ viptools.es##+js(set, a52fb7109de24b62c9351392a4789f6f3, true)
 vsetv.com##+js(aopr, document.styleSheets)
 /adblock$1p
 @@||bigten.org^$xmlhttprequest,1p,badfilter
+thgss.com##+js(aeld, /mousedown|keydown/, /button|keyCode/)
