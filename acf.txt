@@ -82,3 +82,4 @@ vsetv.com##+js(aopr, document.styleSheets)
 /adblock$1p
 @@||bigten.org^$xmlhttprequest,1p,badfilter
 thgss.com##+js(aeld, /mousedown|keydown/, /button|keyCode/)
+encurta.eu##+js(aopr, app_vars.force_disable_adblock)
