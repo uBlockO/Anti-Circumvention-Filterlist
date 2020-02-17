@@ -80,4 +80,4 @@ finance.i.ua##+js(remove-node, alert, script)
 viptools.es##+js(set, a52fb7109de24b62c9351392a4789f6f3, true)
 vsetv.com##+js(aopr, document.styleSheets)
 /adblock$1p
-thgss.com##+js(aeld, /mousedown|keydown/, /button|keyCode/)
+thgss.com##+js(insert-elem, #checkBlockerDiv, display:none, .blockerAlert, div)
