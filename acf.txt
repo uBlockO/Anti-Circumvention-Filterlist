@@ -82,3 +82,5 @@ vsetv.com##+js(aopr, document.styleSheets)
 thgss.com##+js(insert-elem, #checkBlockerDiv, display:none, .blockerAlert, div)
 libertaddigital.com##body:style(overflow: auto !important)
 libertaddigital.com##.blocker
+clipventures.com##.middle iframe:style(height: 510px !important)
+||antiadblock.cz^$3p
