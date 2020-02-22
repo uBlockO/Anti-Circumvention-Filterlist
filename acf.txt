@@ -84,3 +84,4 @@ libertaddigital.com##body:style(overflow: auto !important)
 libertaddigital.com##.blocker
 clipventures.com##.middle iframe:style(height: 510px !important)
 ||antiadblock.cz^$3p
+solvetube.*##^script:has-text(var qckyta)
