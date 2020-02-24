@@ -84,3 +84,4 @@ libertaddigital.com##.blocker
 clipventures.com##.middle iframe:style(height: 510px !important)
 ||antiadblock.cz^$3p
 solvetube.*##^script:has-text(var qckyta)
+autofaucets.org##+js(add-elem, #tester, display:none, div)
