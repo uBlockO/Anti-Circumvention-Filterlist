@@ -86,3 +86,4 @@ clipventures.com##.middle iframe:style(height: 510px !important)
 solvetube.*##^script:has-text(var qckyta)
 autofaucets.org##+js(add-elem, #tester, display:none, div)
 ||wp-r.github.io^$3p
+foxplay.com.tr##+js(set, adblockerStatus, false)
