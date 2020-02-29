@@ -87,4 +87,4 @@ solvetube.*##^script:has-text(var qckyta)
 autofaucets.org##+js(add-elem, #tester, display:none, div)
 ||wp-r.github.io^$3p
 foxplay.com.tr##+js(set, adblockerStatus, false)
-mydaddy.cc##+js(set, canRunAds, true)
+mydaddy.cc##+js(set, hasAdblock, false)
