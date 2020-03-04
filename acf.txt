@@ -80,7 +80,7 @@ vsetv.com##+js(aopr, document.styleSheets)
 /adblock$1p
 thgss.com##+js(insert-elem, #checkBlockerDiv, display:none, .blockerAlert, div)
 libertaddigital.com##body:style(overflow: auto !important)
-libertaddigital.com##.blocker
+libertaddigital.com##+js(remove-elem, .blocker)
 clipventures.com##.middle iframe:style(height: 510px !important)
 ||antiadblock.cz^$3p
 solvetube.*##^script:has-text(var qckyta)
