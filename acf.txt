@@ -97,3 +97,5 @@ zobacz.ws##+js(nostif, mdpDeBlocker)
 quotev.com##+js(remove-node, /::selection|onselectstart/, script\, style)
 !#endif
 quotev.com##+js(remove-elem, p > a[href^="https://www.youtube.com/watch"])
+mixdrop.to##+js(set, MDCore.adblock, 0)
+mixdrop.to##+js(remove-elem, body > div:nth-of-type(3))
