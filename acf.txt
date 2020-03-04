@@ -93,3 +93,6 @@ sfirmware.com##+js(append-elem, div#download-popup-inner, ins, class, adsbygoogl
 sfirmware.com##+js(append-elem, ins.adsbygoogle, iframe, style, display: none)
 zobacz.ws##+js(nostif, mdpDeBlocker)
 ||salon.com/ajax/show_message.php^$xhr,1p
+!#if env_chromium
+quotev.com##+js(remove-node, /::selection|onselectstart/, script\, style)
+!#endif
