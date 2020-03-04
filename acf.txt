@@ -96,3 +96,4 @@ zobacz.ws##+js(nostif, mdpDeBlocker)
 !#if env_chromium
 quotev.com##+js(remove-node, /::selection|onselectstart/, script\, style)
 !#endif
+quotev.com##+js(remove-elem, p > a[href^="https://www.youtube.com/watch"])
