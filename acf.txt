@@ -14,7 +14,7 @@ mangahosted.com##+js(remove-node, adblock, script)
 megaup.net##+js(remove-node, /adblock|onerror/, script)
 ||photobucket.com/*/sweetalert*^$script,stylesheet,1p
 kroger.com,meijer.com##+js(remove-elem, #wishabi-tracking-protection-modal\, .goog-modalpopup-bg)
-comingsoon.net##+js(rm-attr, href|onclick|target, [href^="https://www.amazon.com/"])
+comingsoon.net##+js(rem-attr, href|onclick|target, [href^="https://www.amazon.com/"])
 multiup.org##+js(multiup, form[action], button[link], action, link)
 filesupload.org##+js(multiup, form[action], input[name="link"], action, value)
 multiup.org##+js(remove-elem, .text-center.alert-info\, .text-dark.text-center.panel-body)
