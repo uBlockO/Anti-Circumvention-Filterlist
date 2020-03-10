@@ -104,3 +104,6 @@ teknosafe.info###blockblockB:style(display: block !important)
 kachelmannwetter.com,meteologix.com,weather.us##+js(set-attr, data-value, payaccount, #paywall-account-type)
 kachelmannwetter.com,meteologix.com,weather.us##+js(remove-elem, .kw-cookie-info\, .abtextout)
 bild.de##+js(remove-node, Adblock, script)
+bitearns.com##+js(aopw, check)
+bitearns.com##+js(ra, disabled, button)
+||bitearns.com/*/check.js$script,1p
