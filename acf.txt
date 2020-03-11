@@ -107,3 +107,5 @@ bild.de##+js(remove-node, Adblock, script)
 bitearns.com##+js(aopw, check)
 bitearns.com##+js(ra, disabled, button)
 ||bitearns.com/*/check.js$script,1p
+hanime.tv##+js(set, Cookies.get, trueFunc)
+||hanime.tv/*/preroll_ad_event$1p
