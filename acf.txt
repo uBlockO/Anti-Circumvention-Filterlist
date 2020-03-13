@@ -57,7 +57,7 @@ nyafilmer.*##body > [class^="_"]:style(z-index: -3000 !important)
 richmond.com##+js(remove-node, __tnt.subscription, script)
 merryjane.com##+js(remove-elem, #adBlockCheck)
 imdb.com##+js(remove-elem, [href^="http://www.amazon.com/"])
-aeonax.com##+js(add-iframe, 3, iframe, null)
+aeonax.com##+js(add-iframe, 3, iframe, /)
 aeonax.com##iframe#iframe
 suicidegirlsfree.com,suicidegirlsfreephotos.tk##+js(ro, String.prototype.replace, null)
 filecr.com##+js(add-elem, #mdp-holdback-ads, display: none, div)
