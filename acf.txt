@@ -109,3 +109,4 @@ bitearns.com##+js(ra, disabled, button)
 ||bitearns.com/*/check.js$script,1p
 hanime.tv##+js(set, Cookies.get, trueFunc)
 ||hanime.tv/*/preroll_ad_event$1p
+ytmp3eu.eu###myModal2,.cresponsive_modal.modal-content:remove()
