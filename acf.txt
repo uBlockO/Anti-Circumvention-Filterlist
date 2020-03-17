@@ -110,3 +110,4 @@ bitearns.com##+js(ra, disabled, button)
 hanime.tv##+js(set, Cookies.get, trueFunc)
 ||hanime.tv/*/preroll_ad_event$1p
 ytmp3eu.eu###myModal2,.cresponsive_modal.modal-content:remove()
+customercareal.com##+js(remove-class, disabled, a[id="locked_action_link"])
