@@ -116,3 +116,4 @@ egyanime.com##+js(set, adsBlocked, null)
 *$script,3p,redirect-rule=noopjs,domain=teleportal.ua
 *$xhr,3p,redirect-rule=noop.txt,domain=teleportal.ua
 *$image,3p,redirect-rule=1x1.gif,domain=teleportal.ua
+judicialcaselaw.com##+js(set, fj49sj45902ks, null)
