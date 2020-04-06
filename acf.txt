@@ -84,8 +84,8 @@ autofaucets.org##+js(add-elem, #tester, display:none, div)
 foxplay.com.tr##+js(set, adblockerStatus, false)
 mydaddy.cc##+js(set, hasAdblock, null)
 bdcraft.net##+js(remove-node, adsbygoogle, div)
-sfirmware.com##+js(append-elem, div#download-popup-inner, ins, class, adsbygoogle)
-sfirmware.com##+js(append-elem, ins.adsbygoogle, iframe, style, display:none)
+sfirmware.com,lg-firmwares.com##+js(append-elem, div#download-popup-inner, ins, class, adsbygoogle)
+sfirmware.com,lg-firmwares.com##+js(append-elem, ins.adsbygoogle, iframe, style, display:none)
 zobacz.ws##+js(nostif, mdpDeBlocker)
 ||salon.com/ajax/show_message.php^$xhr,1p
 !#if env_chromium
