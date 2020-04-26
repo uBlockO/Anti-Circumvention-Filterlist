@@ -121,3 +121,4 @@ mega.nz##+js(setItem, pra, {"1":9999999})
 zobacz.ws##+js(set, mdpDeBlocker, null)
 webkod.pl##+js(set, adsbygoogle.loaded, true)
 securenetsystems.net##+js(remove-node, #adblockWrapper, script)
+*$script,redirect-rule=noopjs,domain=gamak.tv
