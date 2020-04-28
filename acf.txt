@@ -123,3 +123,4 @@ webkod.pl##+js(set, adsbygoogle.loaded, true)
 securenetsystems.net##+js(remove-node, #adblockWrapper, script)
 *$script,redirect-rule=noopjs,domain=gamak.tv
 suicidegirlsfree.com##span[id][class]
+hackintosh.computer##style:has-text(/adblock/i):remove()
