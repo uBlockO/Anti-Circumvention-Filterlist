@@ -56,7 +56,6 @@ imdb.com##+js(remove-elem, [href^="http://www.amazon.com/"])
 aeonax.com##+js(insert-iframe, 3, iframe, /adframe.html)
 aeonax.com##+js(set, tillcashSucks, 2)
 aeonax.com##+js(set, exodius48SucksToo, 2)
-suicidegirlsfree.com##style:has-text(:"Ads"):remove()
 filecr.com##+js(add-elem, #mdp-holdback-ads, display: none, div)
 reevown.com##+js(remove-node, adblock, script)
 reevown.com##+js(remove-elem, .copyright > .card > .card-body\, #babasbmsgx)
@@ -122,5 +121,7 @@ zobacz.ws##+js(set, mdpDeBlocker, null)
 webkod.pl##+js(set, adsbygoogle.loaded, true)
 securenetsystems.net##+js(remove-node, #adblockWrapper, script)
 *$script,redirect-rule=noopjs,domain=gamak.tv
-suicidegirlsfree.com##span[id][class]
+suicidegirlsfree.com##+js(set, setInterval, null)
+suicidegirlsfree.com##style:has-text(visibility):remove()
+suicidegirlsfree.com##span[id][class*="g-entry"]
 hackintosh.computer##style:has-text(/adblock/i):remove()
