@@ -127,3 +127,4 @@ suicidegirlsfree.com##span[id][class*="g-entry"]
 hackintosh.computer##style:has-text(/adblock/i):remove()
 globaldjmix.com##+js(nostif, adsbygoogle)
 globaldjmix.com##.server-palyer,.alternative-source:style(display: block !important)
+aniplay.*##+js(add-elem, #ZOwAREcKWltN, display:none, div)
