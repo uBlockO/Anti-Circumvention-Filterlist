@@ -134,3 +134,4 @@ sport1.de##+js(rn, adBlockerHandling, script)
 stalker-mods.su##+js(acis, document, nextFunction)
 sythe.org##a[onclick][style^="cursor:"]
 sythe.org##center, div[id][style*="float:"]
+sythe.org##img[title][src][style*="width:auto; height:auto;"]
