@@ -109,9 +109,7 @@ ytmp3eu.eu###myModal2,.cresponsive_modal.modal-content:remove()
 customercareal.com##+js(rc, disabled, a[id="locked_action_link"])
 websdr.space##+js(acis, document.getElementById, innerHTML)
 egyanime.com##+js(set, adsBlocked, null)
-*$script,3p,redirect-rule=noopjs,domain=teleportal.ua
-*$xhr,3p,redirect-rule=noop.txt,domain=teleportal.ua
-*$image,3p,redirect-rule=1x1.gif,domain=teleportal.ua
+*$redirect-rule=empty,domain=teleportal.ua
 judicialcaselaw.com##+js(set, fj49sj45902ks, null)
 mangahost2.com##+js(remove-node, adblock, script)
 lentv24.ru##+js(set, createjs, noopFunc)
