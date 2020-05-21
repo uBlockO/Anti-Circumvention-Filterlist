@@ -130,6 +130,6 @@ mac-torrent-download.net##+js(rc, btn-disable, button#dlbt)
 mac-torrent-download.net##+js(ra, disabled, button#dlbt)
 sport1.de##+js(rn, adBlockerHandling, script)
 stalker-mods.su##+js(acis, document, nextFunction)
-sythe.org##a[onclick][style^="cursor:"]
 sythe.org##img[title][src][style*="width:auto; height:auto;"]
-sythe.org##[href^="javascript:"]
+sythe.org##center
+sythe.org##.nomo:upward(1)
