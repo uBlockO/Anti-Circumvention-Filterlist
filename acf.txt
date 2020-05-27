@@ -132,3 +132,6 @@ sport1.de##+js(rn, adBlockerHandling, script)
 stalker-mods.su##+js(acis, document, nextFunction)
 sythe.org##+js(rn, , iiinlqjx\, ooojcanq)
 tistory.com##+js(aopr, adBlockDetected)
+anitokyo.tv##+js(nosiif, visibility, 1000)
+anitokyo.tv##body > div[style*="z-index: 10000"]
+anitokyo.tv###player_container:style(pointer-events:auto !important)
