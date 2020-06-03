@@ -136,4 +136,4 @@ anitokyo.tv##+js(nosiif, visibility, 1000)
 anitokyo.tv##body > div[style*="z-index: 10000"]
 anitokyo.tv###player_container:style(pointer-events:auto !important)
 dropgalaxy.com##.modalpop:remove()
-dropgalaxy.com##+js(rma, disabled, button)
+dropgalaxy.com##+js(rma, disabled, button#downloadBtnClick)
