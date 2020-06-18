@@ -137,7 +137,7 @@ anitokyo.tv##body > div[style*="z-index: 10000"]
 anitokyo.tv###player_container:style(pointer-events:auto !important)
 dropgalaxy.*##+js(rma, disabled, button#downloadBtnClick)
 dropgalaxy.*##+js(set, pplayer, null)
-laptopmag.com,tomshardware.com##+js(aopw, _sp_)
+laptopmag.com,tomshardware.com,livescience.com##+js(aopw, _sp_)
 it-actual.ru##+js(nostif, alert, 2000)
 it-actual.ru##.b12k
 fark.com##div[class^="custombox-"]:remove()
