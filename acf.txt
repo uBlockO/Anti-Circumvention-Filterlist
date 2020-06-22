@@ -24,7 +24,7 @@ washingtonpost.com##+js(remove-node, adblocker, script)
 washingtonpost.com##+js(remove-elem, #wallIframe)
 ||i.imgur.com/*.gif^$3p
 ||trello-attachments.s3.amazonaws.com^$3p
-theglobeandmail.com##+js(ro, tgam.meta.paywallStatus, null)
+theglobeandmail.com##+js(ro, tgam.meta.paywallStatus, undefined)
 theglobeandmail.com##+js(remove-elem, #top-fullwidth-area > .pb-container)
 tcpvpn.com,filegrade.com##+js(remove-elem, #blockblockA)
 tcpvpn.com,filegrade.com###blockblockB:style(display: block !important)
