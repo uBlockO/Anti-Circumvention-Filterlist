@@ -146,3 +146,4 @@ chip.de##+js(set, blockAdBlock._options.baitClass, null)
 sindresorhus.com##+js(aeld, devtoolschange)
 360ptp.online##+js(aopr, disableButtonTimer)
 *$xhr,redirect-rule=nooptext,domain=utopia.de
+konstantinova.net##+js(aopr, disableButtonTimer)
