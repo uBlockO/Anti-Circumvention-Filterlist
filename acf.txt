@@ -145,3 +145,4 @@ ksml.fi##+js(aopr, paywall)
 chip.de##+js(set, blockAdBlock._options.baitClass, null)
 sindresorhus.com##+js(aeld, devtoolschange)
 *$xhr,redirect-rule=nooptext,domain=utopia.de
+hepgezelim.com##+js(acis, document.createElement, .check)
