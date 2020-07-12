@@ -134,14 +134,12 @@ anitokyo.tv##body > div[style*="z-index: 10000"]
 anitokyo.tv###player_container:style(pointer-events:auto !important)
 dropgalaxy.*##+js(rma, disabled, button#downloadBtnClick)
 dropgalaxy.*##+js(set, pplayer, null)
-laptopmag.com,tomshardware.com,livescience.com##+js(aopw, _sp_)
+laptopmag.com,tomshardware.com,livescience.com,whathifi.com##+js(aopw, _sp_)
 it-actual.ru##+js(nostif, alert, 2000)
 it-actual.ru##.b12k
-fark.com##div[class^="custombox-"]:remove()
-fark.com##+js(ra, style, body)
-whathifi.com##+js(aopw, _sp_)
 gaming-style.com##+js(add-elem, #rtFPSmPqKhJF, display:none, div)
 ksml.fi##+js(aopr, paywall)
 chip.de##+js(set, blockAdBlock._options.baitClass, null)
 sindresorhus.com##+js(aeld, devtoolschange)
 *$xhr,redirect-rule=nooptext,domain=utopia.de
+*$script,redirect-rule=noopjs,domain=tvp.pl
