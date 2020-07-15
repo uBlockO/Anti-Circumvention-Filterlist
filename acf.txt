@@ -144,3 +144,7 @@ sindresorhus.com##+js(aeld, devtoolschange)
 *$xhr,redirect-rule=nooptext,domain=utopia.de
 *$script,redirect-rule=noopjs,domain=tvp.pl
 duellinksmeta.com###antiAdblockModal, .show.fade.modal-backdrop:remove()
+! https://github.com/AdguardTeam/AdguardFilters/issues/59367
+iskandinavya.com##+js(aopw, ai_front)
+! https://github.com/AdguardTeam/AdguardFilters/issues/59364
+iddaaorantahmin.com###reklamUyari:remove()
