@@ -144,4 +144,4 @@ sindresorhus.com##+js(aeld, devtoolschange)
 *$xhr,redirect-rule=nooptext,domain=utopia.de
 *$script,redirect-rule=noopjs,domain=tvp.pl
 duellinksmeta.com###antiAdblockModal, .show.fade.modal-backdrop:remove()
-kabum.com.br##+js(rn, Enabler, script)
+kabum.com.br##script:has-text(Enabler):remove()
