@@ -148,5 +148,3 @@ kabum.com.br##script:has-text(Enabler):remove()
 ! https://github.com/AdguardTeam/AdguardFilters/issues/59758
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=anihub.tv
 *$script,redirect-rule=noopjs,domain=anihub.tv
-! https://github.com/AdguardTeam/AdguardFilters/issues/59898
-@@||cdn.witchhut.com/network-js/witch-afg/ima3.js$script,domain=barbioyunu.com.tr
