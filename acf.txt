@@ -145,3 +145,6 @@ sindresorhus.com##+js(aeld, devtoolschange)
 *$script,redirect-rule=noopjs,domain=tvp.pl
 duellinksmeta.com###antiAdblockModal, .show.fade.modal-backdrop:remove()
 kabum.com.br##script:has-text(Enabler):remove()
+! https://github.com/AdguardTeam/AdguardFilters/issues/60172
+mt2dosyalar.com##+js(nostif, .load, 2000)
+mt2dosyalar.com##.notice
