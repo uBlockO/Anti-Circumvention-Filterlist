@@ -148,3 +148,5 @@ kabum.com.br##script:has-text(Enabler):remove()
 ! https://github.com/AdguardTeam/AdguardFilters/issues/60172
 mt2dosyalar.com##+js(nostif, .load, 2000)
 mt2dosyalar.com##.notice
+! https://github.com/AdguardTeam/AdguardFilters/issues/60205
+meuwindows.com##+js(aopw, ai_front)
