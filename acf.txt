@@ -70,7 +70,7 @@ animemobile.com###html5_video_div:style(position: relative !important; top: 0 !i
 animemobile.com##+js(tog-attr, controls, video)
 i.ua,newsone.ua,cn.ru,peers.tv,vsetv.com##+js(remove-node, Sheets, script)
 viptools.es##+js(set, a52fb7109de24b62c9351392a4789f6f3, true)
-/adblock$1p
+/adblock$1p,domain=~github.com|gitlab.com
 thgss.com##+js(insert-elem, #checkBlockerDiv, display:none, .blockerAlert, div)
 libertaddigital.com##body:style(overflow: auto !important)
 libertaddigital.com##+js(remove-elem, .blocker)
