@@ -4,7 +4,6 @@
 ! Author: uBlock-user
 ! Expires: 4 days
 
-webmd.com,sportingnews.com,edmunds.com,cnet.com,gamespot.com,cbssports.com,wetteronline.de##+js(remove-node, /INSTART/, script)
 uploadship.com##+js(remove-node, location.replace, script)
 msn.com##^script:has-text(/INSTART/)
 gogoanime.io##+js(remove-node, i=null, script)
