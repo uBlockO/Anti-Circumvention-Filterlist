@@ -11,19 +11,19 @@ mangahosted.com##+js(remove-node, adblock, script)
 @@||megaup.net^$generichide,badfilter
 megaup.net##+js(remove-node, /adblock|onerror/, script)
 ||photobucket.com/*/sweetalert*^$script,stylesheet,1p
-kroger.com,meijer.com##+js(remove-elem, #wishabi-tracking-protection-modal\, .goog-modalpopup-bg)
+kroger.com,meijer.com###wishabi-tracking-protection-modal, .goog-modalpopup-bg:remove()
 comingsoon.net##+js(rem-attr, href|onclick|target, [href^="https://www.amazon.com/"])
 multiup.org##+js(multiup, form[action], button[link], action, link)
 filesupload.org##+js(multiup, form[action], input[name="link"], action, value)
-multiup.org##+js(remove-elem, .text-center.alert-info\, .text-dark.text-center.panel-body)
+multiup.org##.text-center.alert-info, .text-dark.text-center.panel-body:remove()
 salahstream.ml##+js(remove-node, /adsense|onkeypress/, script)
 oltnertagblatt.ch##+js(add-elem, #LhlMHvcspPbf, display:none, div)
 washingtonpost.com##+js(remove-node, adblocker, script)
-washingtonpost.com##+js(remove-elem, #wallIframe)
+washingtonpost.com###wallIframe:remove()
 ||i.imgur.com/*.gif^$3p
 ||trello-attachments.s3.amazonaws.com^$3p
 theglobeandmail.com##+js(set, tgam.meta.paywallStatus, undefined)
-theglobeandmail.com##+js(remove-elem, #top-fullwidth-area > .pb-container)
+theglobeandmail.com###top-fullwidth-area > .pb-container:remove()
 tcpvpn.com,filegrade.com##+js(remove-elem, #blockblockA)
 tcpvpn.com,filegrade.com###blockblockB:style(display: block !important)
 tatort.tube##+js(set, adTest1, null)
