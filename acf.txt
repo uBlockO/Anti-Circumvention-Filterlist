@@ -147,7 +147,5 @@ magnet-novels.com##+js(set, document.onselectstart, noopFunc)
 ff14angler.com##+js(append-elem, ins.adsbygoogle, iframe, style, display:none)
 animemobile.com##+js(set-attr, controls, auto, video)
 unegui.mn##+js(add-class, full-width-list, div.list-announcement-left.list-announcement-left--nomargin)
-! https://github.com/AdguardTeam/AdguardFilters/issues/62220
-teknomobil.net##+js(aopr, anOptions)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62224
 darmowatv.ws##+js(aopw, _pop)
