@@ -148,3 +148,4 @@ ff14angler.com##+js(append-elem, ins.adsbygoogle, iframe, style, display:none)
 animemobile.com##+js(set-attr, controls, auto, video)
 unegui.mn##+js(add-class, full-width-list, div.list-announcement-left.list-announcement-left--nomargin)
 carrefour.pl##+js(nosiif, (){t(), 50)
+ ||metering.platform.latimes.com^
