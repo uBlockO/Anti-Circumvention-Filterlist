@@ -150,3 +150,6 @@ unegui.mn##+js(add-class, full-width-list, div.list-announcement-left.list-annou
 carrefour.pl##+js(nosiif, (){t(), 50)
 ||metering.platform.latimes.com^
 latimes.com##[class^="met-"]
+myjest.com##+js(nosiif, 0x)
+myjest.com###MyJESTcom3
+myjest.com###MyJESTcom2
