@@ -153,3 +153,5 @@ latimes.com##[class^="met-"]
 myjest.com##+js(nosiif, 0x)
 myjest.com###MyJESTcom3
 myjest.com###MyJESTcom2
+dropgalaxy.*##.modalpop
+dropgalaxy.*##+js(set, usrblock, noopFunc)
