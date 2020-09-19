@@ -157,3 +157,4 @@ dropgalaxy.*##.modalpop
 dropgalaxy.*##+js(set, usrblock, noopFunc)
 dropgalaxy.com##.adsbygoogle,.downloadPage.page.pt-5.container > .row > .mt-5.col-md-4 > .mt-3.downloadNow > form > .text-center.mt-5:remove()
 ||adguard.org^
+soft98.ir##+js(nostif, e(), 3000)
