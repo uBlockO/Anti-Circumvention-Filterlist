@@ -153,8 +153,7 @@ latimes.com##[class^="met-"]
 myjest.com##+js(nosiif, 0x)
 myjest.com###MyJESTcom3
 myjest.com###MyJESTcom2
-dropgalaxy.*##.modalpop
-dropgalaxy.*##+js(set, usrblock, noopFunc)
+dropgalaxy.com##.modalpop
+dropgalaxy.com##+js(aost, RegExp, .find)
 dropgalaxy.com##.adsbygoogle,.downloadPage.page.pt-5.container > .row > .mt-5.col-md-4 > .mt-3.downloadNow > form > .text-center.mt-5:remove()
-||adguard.org^
 soft98.ir##+js(nostif, e(), 3000)
