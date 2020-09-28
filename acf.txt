@@ -156,3 +156,4 @@ myjest.com###MyJESTcom2
 ||tmp.dropgalaxy.in^
 dropgalaxy.com##.adsbygoogle,.modalpop,.downloadPage.page.pt-5.container > .row > .mt-5.col-md-4 > .mt-3.downloadNow > form > .text-center.mt-5:remove()
 soft98.ir##+js(nostif, e(), 3000)
+solvetube.*##+js(aost, Math.random, /^/)
