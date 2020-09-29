@@ -83,9 +83,6 @@ sfirmware.com,lg-firmwares.com##+js(append-elem, div#download-popup-inner, ins, 
 sfirmware.com,lg-firmwares.com##+js(append-elem, ins.adsbygoogle, iframe, style, display:none)
 zobacz.ws##+js(nostif, mdpDeBlocker)
 ||salon.com/ajax/show_message.php^$xhr,1p
-!#if env_chromium
-quotev.com##+js(remove-node, /::selection|onselectstart/, script\, style)
-!#endif
 quotev.com##p > a[href^="https://www.youtube.com/watch"]:remove()
 mixdrop.to##body > div:nth-of-type(3):remove()
 teknosafe.info###blockblockA:remove()
