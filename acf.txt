@@ -159,3 +159,6 @@ google.*##+js(aeld, DOMContentLoaded, CONSENT)
 news.google.*##.pGxpHc > .gb_7
 ||bugsnag.com^
 ||sentry.io^
+||mailchimp.com^$3p
+||chimpstatic.com^$3p
+||list-manage.com^$3p
