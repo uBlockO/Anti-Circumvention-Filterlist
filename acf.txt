@@ -157,3 +157,5 @@ solvetube.*##+js(aost, Math.random, /^/)
 ||consent.google.com^
 google.*##+js(aeld, DOMContentLoaded, CONSENT) 
 news.google.*##.pGxpHc > .gb_7
+||bugsnag.com^
+||sentry.io^
