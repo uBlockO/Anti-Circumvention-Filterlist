@@ -158,4 +158,4 @@ news.google.*##.pGxpHc > .gb_7
 ||mailchimp.com^$3p
 ||chimpstatic.com^$3p
 ||list-manage.com^$3p
-cocomanhua.com##+js(nostif, checkSiteLoadNormal)
+cocomanhua.com##+js(nostif, checkSiteNormalLoad)
