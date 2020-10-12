@@ -161,3 +161,5 @@ cocomanhua.com##+js(nostif, checkSiteNormalLoad)
 extremereportbot.com##tbody
 extremereportbot.com##body > .grid.ui
 markiza.sk##+js(set, Player.playerConfig.plugins.adService.antiAd, undefined)
+uploadhub.co##+js(ra, onclick, a[onclick][href="#"])
+uploadhub.co##+js(nano-sib)
