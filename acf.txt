@@ -158,8 +158,7 @@ news.google.*##.pGxpHc > .gb_7
 ||chimpstatic.com^$3p
 ||list-manage.com^$3p
 cocomanhua.com##+js(nostif, checkSiteNormalLoad)
-extremereportbot.com##tbody
-extremereportbot.com##body > .grid.ui
+extremereportbot.com##.adsbygoogle:style(max-height:1000px;position:absolute!important;max-width:1000px!important)
 markiza.sk##+js(set, Player.playerConfig.plugins.adService.antiAd, undefined)
 uploadhub.co##+js(ra, onclick, a[onclick][href="#"])
 uploadhub.co##+js(nano-sib)
