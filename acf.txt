@@ -164,3 +164,6 @@ thecompanion.app##div.pp-subs__post-full:style(display:block !important)
 thecompanion.app##div.pp-subs-paywall,div.pp-subs__post-sample:remove()
 kimanime.ru##+js(acis, RegExp, _0x)
 ||exame.com/wp-content^*/pywll.js$script,1p
+mangahosted.com##+js(nosiif, visibility, 1000)
+mangahosted.com##+js(nostif, TypeError, 24000)
+*$script,redirect-rule=noopjs,domain=mangahosted.com
