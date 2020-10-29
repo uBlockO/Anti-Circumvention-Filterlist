@@ -167,3 +167,4 @@ kimanime.ru##+js(acis, RegExp, _0x)
 mangahosted.com##+js(nosiif, visibility, 1000)
 mangahosted.com##+js(nostif, TypeError, 24000)
 *$script,redirect-rule=noopjs,domain=mangahosted.com
+bitcointalk.org##.signature
