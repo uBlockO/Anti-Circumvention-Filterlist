@@ -168,3 +168,4 @@ mangahosted.com##+js(nosiif, visibility, 1000)
 mangahosted.com##+js(nostif, TypeError, 24000)
 *$script,redirect-rule=noopjs,domain=mangahosted.com
 bitcointalk.org##.signature
+hackforums.net##.mam-header,.mam-footer:remove()
