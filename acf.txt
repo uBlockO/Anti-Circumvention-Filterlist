@@ -170,4 +170,4 @@ mangahosted.com##+js(nostif, TypeError, 24000)
 bitcointalk.org##.signature
 hackforums.net##.mam-header,.mam-footer:remove()
 realclearpolitics.com,realclearpolicy.com,realclearmarkets.com,realclearworld.com,realcleardefense.com,realclearenergy.org,realclearhealth.com,realclearscience.com,realclearreligion.org,realcleareducation.com,realclearhistory.com,realclearbooks.com,realclearinvestigations.com,realclearfoundation.org##+js(nosiif, _check)
-new.lewd.ninja##+js(set, Request, noopFunc)
+new.lewd.ninja##+js(aost, Request, $detect)
