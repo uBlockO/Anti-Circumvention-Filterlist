@@ -171,3 +171,6 @@ bitcointalk.org##.signature
 hackforums.net##.mam-header,.mam-footer:remove()
 realclearpolitics.com,realclearpolicy.com,realclearmarkets.com,realclearworld.com,realcleardefense.com,realclearenergy.org,realclearhealth.com,realclearscience.com,realclearreligion.org,realcleareducation.com,realclearhistory.com,realclearbooks.com,realclearinvestigations.com,realclearfoundation.org##+js(nosiif, _check)
 new.lewd.ninja##+js(norif, juicyads)
+aternos.org##+js(ra, style, div.body\, header.header)
+aternos.org##div[id][style^="opacity: 1;"]
+aternos.org##.ad,.header-ad
