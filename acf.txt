@@ -172,6 +172,6 @@ realclearpolitics.com,realclearpolicy.com,realclearmarkets.com,realclearworld.co
 aternos.org##+js(ra, style, div.body\, header.header)
 aternos.org##div[id][style^="opacity: 1;"]
 aternos.org##.ad,.header-ad
-animefever.tv##+js(norif, flowplayer)
+animefever.tv##+js(no-fetch-if, flowplayer)
 ||journey.newyorker.com^
 mope.io##+js(append-elem, #moneyRect > #mope-io_300x250, iframe, style, display:none)
