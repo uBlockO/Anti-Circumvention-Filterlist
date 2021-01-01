@@ -175,3 +175,6 @@ aternos.org##.ad,.header-ad
 animefever.tv##+js(no-fetch-if, flowplayer)
 ||journey.newyorker.com^
 mope.io##+js(append-elem, #moneyRect > #mope-io_300x250, iframe, style, display:none !important)
+news.yahoo.com##.caas-readmore-collapse ~ *:style(display:block !important)
+news.yahoo.com##.caas-readmore-collapse
+msn.com##.articlebody:style(display:block !important)
