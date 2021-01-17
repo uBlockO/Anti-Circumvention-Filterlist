@@ -179,3 +179,4 @@ news.yahoo.com##.caas-readmore-collapse ~ *:style(display:block !important)
 news.yahoo.com##.caas-readmore-collapse
 thepointmag.com##+js(nostif, animate, 3000)
 ff14angler.com##+js(aopr, length)
+animefever.tv##+js(set, _purpleadsWasLoaded, true)
