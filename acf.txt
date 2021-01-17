@@ -178,3 +178,4 @@ mope.io##+js(append-elem, #moneyRect > #mope-io_300x250, iframe, style, display:
 news.yahoo.com##.caas-readmore-collapse ~ *:style(display:block !important)
 news.yahoo.com##.caas-readmore-collapse
 thepointmag.com##+js(nostif, animate, 3000)
+ff14angler.com##+js(aopr, length)
