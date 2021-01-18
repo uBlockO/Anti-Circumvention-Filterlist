@@ -178,5 +178,6 @@ mope.io##+js(append-elem, #moneyRect > #mope-io_300x250, iframe, style, display:
 news.yahoo.com##.caas-readmore-collapse ~ *:style(display:block !important)
 news.yahoo.com##.caas-readmore-collapse
 thepointmag.com##+js(nostif, animate, 3000)
-ff14angler.com##+js(append-elem, ins.adsbygoogle, iframe, style, display:block)
+en.ff14angler.com##+js(append-elem, ins.adsbygoogle, iframe, style, display:block)
+en.ff14angler.com##div.side_banner
 animefever.tv##+js(set, _purpleadsWasLoaded, true)
