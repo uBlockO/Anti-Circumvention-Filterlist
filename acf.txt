@@ -182,3 +182,4 @@ ff14angler.com##+js(append-elem, ins.adsbygoogle, iframe, style, display:block)
 ff14angler.com##div.side_banner
 animefever.tv##+js(set, _purpleadsWasLoaded, true)
 ||stat.adguard.com^
+linkvertise.*##.ad-wrapper:style(left:-3000px !important;position:absolute !important)
