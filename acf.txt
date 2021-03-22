@@ -186,3 +186,4 @@ linkvertise.*##.ad-wrapper:style(left:-3000px !important;position:absolute !impo
 discovermagazine.com##[href*="/sponsored/"]:upward(1)
 discovermagazine.com##a[href="/tag/cbd"]:upward(1)
 down.mdiaload.com##+js(acis, less)
+fappeningbook.com##[href^="https://join3.bannedsextapes.com"]
