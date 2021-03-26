@@ -186,3 +186,5 @@ discovermagazine.com##[href*="/sponsored/"]:upward(1)
 discovermagazine.com##a[href="/tag/cbd"]:upward(1)
 down.mdiaload.com##+js(acis, less)
 fappeningbook.com##[href^="https://join3.bannedsextapes.com"]
+wordreference.com###adrightbottom:upward(1)
+wordreference.com###adrighttop:upward(1)
