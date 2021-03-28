@@ -182,9 +182,6 @@ ff14angler.com##div.side_banner
 animefever.tv##+js(set, _purpleadsWasLoaded, true)
 ||stat.adguard.com^
 linkvertise.*##.ad-wrapper:style(left:-3000px !important;position:absolute !important)
-discovermagazine.com##[href*="/sponsored/"]:upward(1)
-discovermagazine.com##a[href="/tag/cbd"]:upward(1)
 down.mdiaload.com##+js(acis, less)
-fappeningbook.com##[href^="https://join3.bannedsextapes.com"]
 wordreference.com###adrightbottom:upward(1)
 wordreference.com###adrighttop:upward(1)
