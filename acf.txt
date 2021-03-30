@@ -185,3 +185,5 @@ linkvertise.*##.ad-wrapper:style(left:-3000px !important;position:absolute !impo
 down.mdiaload.com##+js(acis, less)
 wordreference.com###adrightbottom:upward(1)
 wordreference.com###adrighttop:upward(1)
+||ecaytrade.com/sites/default/files/styles/leaderboard_desktop/$image,1p
+||ecaytrade.com/sites/default/files/styles/leaderboard_mobile/$image,1p
