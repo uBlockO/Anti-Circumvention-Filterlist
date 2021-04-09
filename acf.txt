@@ -187,9 +187,6 @@ wordreference.com###adrightbottom:upward(1)
 wordreference.com###adrighttop:upward(1)
 ||ecaytrade.com/sites/default/files/styles/leaderboard_desktop/$image,1p
 ||ecaytrade.com/sites/default/files/styles/leaderboard_mobile/$image,1p
-giantfreakinrobot.com##[class^="pw-leaderboard-"]
-giantfreakinrobot.com##.pw-ph-med-rect
-giantfreakinrobot.com##.pw-med-rect-btf-container
 giantfreakinrobot.com##div[style="height:20px"]
 giantfreakinrobot.com##div[style="height:50px"]
 giantfreakinrobot.com##.prev_cmn_ad_tag_bottom_article
