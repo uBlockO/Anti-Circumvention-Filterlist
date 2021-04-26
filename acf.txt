@@ -190,3 +190,4 @@ wordreference.com###adrighttop:upward(1)
 giantfreakinrobot.com##div[style="height:20px"]
 giantfreakinrobot.com##div[style="height:50px"]
 giantfreakinrobot.com##.prev_cmn_ad_tag_bottom_article
+||ubembed.com^
