@@ -191,3 +191,10 @@ giantfreakinrobot.com##div[style="height:20px"]
 giantfreakinrobot.com##div[style="height:50px"]
 giantfreakinrobot.com##.prev_cmn_ad_tag_bottom_article
 ||ubembed.com^
+lowendbox.com##[href^="https://www.buysellads.com/"]
+||lowendbox.com/media/banner/$subdocument
+lowendbox.com##[href^="https://alphavps.com/"]
+lowendbox.com##[href^="https://www.servermania.com/"]
+lowendbox.com##[href^="https://cloud.net/"]
+lowendbox.com##div.block:nth-of-type(6)
+lowendbox.com##div.block:nth-of-type(4)
