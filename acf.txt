@@ -200,4 +200,5 @@ lowendbox.com##div.block:nth-of-type(6)
 lowendbox.com##div.block:nth-of-type(4)
 celebjihad.com##[href^="https://go.admjmp.com/"]
 ||bshrdr.com^
-aiarticlespinner.co##+js(ce, .adsbygoogle, display:none !important, ins)
+aiarticlespinner.co##+js(ce, .adsbygoogle adsbygoogle-noablate, display:none !important, ins)
+
