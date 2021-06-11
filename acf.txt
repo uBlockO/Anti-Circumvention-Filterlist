@@ -201,3 +201,4 @@ celebjihad.com##[href^="https://go.admjmp.com/"]
 aiarticlespinner.co##+js(ce, .adsbygoogle adsbygoogle-noablate, display:none !important, ins)
 tweakers.net##+js(noxif, filters:max_bytes)
 fox.com##+js(noxif, adsbygoogle)
+||smartwall.theglobeandmail.com^
