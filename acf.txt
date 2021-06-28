@@ -202,3 +202,6 @@ aiarticlespinner.co##+js(ce, .adsbygoogle adsbygoogle-noablate, display:none !im
 tweakers.net##+js(noxif, filters:max_bytes)
 fox.com##+js(noxif, adsbygoogle)
 ||smartwall.theglobeandmail.com^
+metacritic.com##.wait
+metacritic.com##.waiting.pad_btm2:style(filter:none !important)
+metacritic.com##.fa-spin.fa-spinner.fa
