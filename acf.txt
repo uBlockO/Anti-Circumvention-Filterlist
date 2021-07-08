@@ -205,5 +205,4 @@ fox.com##+js(noxif, adsbygoogle)
 metacritic.com##.wait
 metacritic.com##.waiting.pad_btm2:style(filter:none !important)
 metacritic.com##.fa-spin.fa-spinner.fa
-forbes.com##.subhead3-embed
-forbes.com##.finds-module-embed
+||forbes.com/sites/forbes-personal-shopper/
