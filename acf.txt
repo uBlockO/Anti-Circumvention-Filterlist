@@ -207,3 +207,4 @@ metacritic.com##.waiting.pad_btm2:style(filter:none !important)
 metacritic.com##.fa-spin.fa-spinner.fa
 ||forbes.com/sites/forbes-personal-shopper/
 pcbeta.com###wp > div[id][class] + div[class][id] > div > div[id]:style(margin-top:-200px !important)
+sbs.com.au##+js(noxif, doubleclick)
