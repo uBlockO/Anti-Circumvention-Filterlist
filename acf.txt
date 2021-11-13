@@ -211,3 +211,4 @@ sbs.com.au##+js(noxif, doubleclick)
 ||dpbolvw.net^$important
 ||emjcd.com^$important
 ||adtraction.com^$important
+||quantcast.mgr.consensu.org/$script,redirect-rule=noopjs,domain=dailyrecord.co.uk
