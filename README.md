@@ -9,7 +9,7 @@ Direct link: [https://raw.githubusercontent.com/uBlock-user/Anti-Circumvention-F
 
 # Requirements 
 
-Need to add [uBO-Scriptlets](https://raw.githubusercontent.com/uBlock-user/uBO-Scriptlets/master/scriptlets.txt) to `userResourcesLocation` parameter in `Advanced-Settings` in uBlock-Origin.
+Need to add [uBO-Scriptlets](https://raw.githubusercontent.com/uBlock-user/uBO-Scriptlets/master/scriptlets.js) to `userResourcesLocation` parameter in `Advanced-Settings` in uBlock-Origin.
 
 
 
