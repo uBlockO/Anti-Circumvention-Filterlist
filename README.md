@@ -5,11 +5,11 @@
 # Anti-Circumvention-Filterlist
 A uBO filterlist for websites engaging in anti-user behaviour.
 
-Direct link: [https://raw.githubusercontent.com/uBlock-user/Anti-Circumvention-Filterlist/master/acf.txt](https://raw.githubusercontent.com/uBlock-user/Anti-Circumvention-Filterlist/master/acf.txt)
+Direct link: [https://anti-circumvention-filterlist.pages.dev/acf.txt](https://anti-circumvention-filterlist.pages.dev/acf.txt)
 
 # Requirements 
 
-Need to add [uBO-Scriptlets](https://raw.githubusercontent.com/uBlock-user/uBO-Scriptlets/master/scriptlets.js) to `userResourcesLocation` parameter in `Advanced-Settings` in uBlock-Origin.
+Need to add [uBO-Scriptlets](https://ubo-scriptlets.pages.dev/scriptlets.js) to `userResourcesLocation` parameter in `Advanced-Settings` in uBlock-Origin.
 
 
 
