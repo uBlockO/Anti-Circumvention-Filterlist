@@ -208,7 +208,7 @@ sbs.com.au##+js(noxif, doubleclick)
 ||dpbolvw.net^$important
 ||emjcd.com^$important
 ||adtraction.com^$important
-||quantcast.mgr.consensu.org/$script,redirect-rule=noopjs,domain=dailyrecord.co.uk
+||consensu.org^$important
 streamhub.to##+js(acis, $, adb)
 hentaimama.io##+js(rmnt,script,/_0x|adConfig/)
 www.youtube.com##+js(set, Object.prototype.adblock_detection, undefined)
