@@ -2,5 +2,5 @@
 #
 # This script assumes a linux environment
 
-echo "*** Dutch Filter List: Assembling Personal%20List%20(uBo).txt"
-node ./tools/make-list.mjs in=tools/dutch-filter-list.template out=Personal%20List%20(uBo).out.txt
+echo "*** Anti-Circumvention-Filterlist: Assembling acf.txt"
+node ./tools/make-anti-circumvention-filterlist.mjs in=tools/anti-circumvention-filterlist.template out=acf.out.txt
