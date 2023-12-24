@@ -1,6 +1,7 @@
 name: Add time - Deploy to cdn branch
 
 on:
+  workflow_dispatch: {}
   push:
     branches:
       - main
