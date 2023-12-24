@@ -3,7 +3,7 @@ name: Add time - Deploy to gh-pages branch
 on:
   push:
     branches:
-      - main
+      - master
     paths:
       - 'acf.txt'
       - 'tools/anti-circumvention-filterlist.template'
