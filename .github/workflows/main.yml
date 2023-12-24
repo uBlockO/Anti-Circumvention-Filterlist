@@ -1,15 +1,10 @@
-name: Add time - Deploy to cdn branch
+name: Deploy to cdn branch
 
 on:
-  workflow_dispatch: {}
   push:
     branches:
-      - main
-    paths:
-      - 'acf.txt'
-      - 'tools/anti-circumvention-filterlist.template'
+      - master
 
-# https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-only-cancel-in-progress-jobs-or-runs-for-the-current-workflow
 concurrency: 
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -24,42 +19,18 @@ jobs:
     name: Publish lists
     runs-on: ubuntu-latest
     steps:
-      - name: Repo check
-        run: |
-          if [[ "$GITHUB_REPOSITORY_OWNER" != "uBlockO" ]]; then
-            echo "This GitHub Action is meant to deliver filter lists for uBlockO."
-            echo "You shouldn't need to run this GitHub Action in your fork."
-            echo "If you do, please customize the cron expression above, and the URLs below."
-            exit 1
-          fi
-          exit 0
-      - name: Sleep for 5 minutes
-        run: sleep 300s
-        shell: bash
       - name: Clone Anti-Circumvention-Filterlist
         uses: actions/checkout@v3
         with:
-          ref: cdn
-      - name: Generate version string
-        run: |
-          TAGNAME=$(date -u "+%-d.%-m.%Y.")$(date -u "+%H*60+%M" | bc)
-          echo "TAGNAME=$TAGNAME" >> $GITHUB_ENV
-          echo "Version string is $TAGNAME"
-      - name: Copy shell script from uBlockO/Anti-Circumvention-Filterlist
-        run: |
-          TMPDIR=$(mktemp -d)
-          git clone --depth=1 --single-branch --branch=main https://github.com/uBlockO/Anti-Circumvention-Filterlist.git $TMPDIR
-          cp -v $TMPDIR/tools/make-diffpatch.sh .
-          cp -v $TMPDIR/tools/update-diffpatches.sh .
+            ref: cdn
       - name: Copy filter lists to cdn
         run: |
-          TMPFILE=$(mktemp -d)
-          git clone --depth=1 https://github.com/uBlockO/Anti-Circumvention-Filterlist.git $TMPFILE
-          pushd $TMPFILE > /dev/null
-          echo "*** Anti-Circumvention-Filterlist: Assembling acf.txt"
-          node ./tools/make-anticircumventionfilterlist.sh in=./tools/anti-circumvention-filterlist.template out=./acf.txt
+          TMPDIR=$(mktemp -d)
+          git clone --depth=1 https://github.com/uBlockO/Anti-Circumvention-Filterlist.git $TMPDIR
+          pushd $TMPDIR > /dev/null
+          ./tools/make-anticircumventionfilterlist.sh
           popd > /dev/null
-          cp $TMPFILE/acf.txt acf.txt
+          cp $TMPDIR/acf.txt ./acf.txt
       - name: Patch last-updated field
         run: |
           DATE=$(date -Ru)
@@ -71,23 +42,11 @@ jobs:
               git checkout -q $f
             fi
           done
-      - name: Create new patch
-        run: |
-          chmod 755 ./make-diffpatch.sh
-          PATCHES_DIR="patches"
-          ./make-diffpatch.sh "${{ env.TAGNAME }}" "$PATCHES_DIR"
-      - name: Update existing patch
-        run: |
-          chmod 755 ./update-diffpatches.sh
-          PATCHES_DIR="patches"
-          FILTER_FILES=$(git ls-files --exclude-standard -- acf.txt)
-          ./update-diffpatches.sh "$GITHUB_REPOSITORY" "$PATCHES_DIR" "$FILTER_FILES"
       - name: Commit changes (if any)
         run: |
-          if [[ -z $(git diff --name-only --cached) ]]; then exit 0; fi
-          git config user.name "GitHub-Actions"
-          git config user.email "<>"
-          git commit -m "Update modified filter lists to ${{ env.TAGNAME }}"
-          git push origin cdn
-          git tag ${{ env.TAGNAME }}
-          git push origin ${{ env.TAGNAME }}
+          if [[ -n $(git diff) ]]; then
+            git config user.name "gitHub-actions bot"
+            git config user.email "<>"
+            git commit -m "Update modified filter lists"
+            git push origin cdn
+          fi
