@@ -1,0 +1,48 @@
+! Title: Dutch Filter List
+! Last modified: %timestamp%
+! Expires: 14 days (update frequency)
+! Diff-Path: %diffpath%#dutchfilterlist
+! Diff-Expires: 12 hours
+! Description:  
+!     A supplement for EasyList and EasyPrivacy on Dutch domains including anti-adblock
+!     mainly for uBlock and Adguard users
+! Homepage: https://github.com/JohnyP36/Personal-List
+! License: https://github.com/JohnyP36/Personal-List/blob/main/LICENSE
+!
+! Github issues: https://github.com/JohnyP36/Personal-List/issues
+!
+! This list is a forked Easylist Dutch,
+!  because the original list is outdated and they don't update it often
+!
+!--------Algemene blokkeerregels--------!
+%include easylistdutch:easylistdutch/Block (general).txt%
+!
+!--------Advertentiedomeinen (derden)--------!
+%include easylistdutch:easylistdutch/Block 3p (server).txt%
+!
+!--------Advertentiedomeinen--------!
+%include easylistdutch:easylistdutch/Block 1p (server).txt%
+!
+!--------Specifieke blokkeerregels (derden)--------!
+%include easylistdutch:easylistdutch/Block 3p (specific).txt%
+!
+!--------Specifieke blokkeerregels--------!
+%include easylistdutch:easylistdutch/Block 1p (specific).txt%
+!
+!--------Uitzonderingen (derden)--------!
+%include easylistdutch:easylistdutch/Block 3p (whitelist).txt%
+!
+!--------Uitzonderingen--------!
+%include easylistdutch:easylistdutch/Block 1p (whitelist).txt%
+!
+!--------Algemene verbergregels--------!
+%include easylistdutch:easylistdutch/Hide (general).txt%
+!
+!--------Specifieke verbergregels--------!
+%include easylistdutch:easylistdutch/Hide (specific).txt%
+!
+!--------Uitzonderingen (verbergregels)--------!
+%include easylistdutch:easylistdutch/Hide (whitelist).txt%
+!
+!-----------------Anti-AdBlock-----------------!
+%include easylistdutch:easylistdutch/Anti-AdBlock.txt%
