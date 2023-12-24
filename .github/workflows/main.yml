@@ -1,4 +1,4 @@
-name: Add time - Deploy to gh-pages branch
+name: Add time - Deploy to cdn branch
 
 on:
   push:
