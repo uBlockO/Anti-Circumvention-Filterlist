@@ -38,7 +38,7 @@ jobs:
       - name: Clone Anti-Circumvention-Filterlist
         uses: actions/checkout@v3
         with:
-          ref: gh-pages
+          ref: cdn
       - name: Generate version string
         run: |
           TAGNAME=$(date -u "+%-d.%-m.%Y.")$(date -u "+%H*60+%M" | bc)
@@ -50,7 +50,7 @@ jobs:
           git clone --depth=1 --single-branch --branch=main https://github.com/uBlockO/Anti-Circumvention-Filterlist.git $TMPDIR
           cp -v $TMPDIR/tools/make-diffpatch.sh .
           cp -v $TMPDIR/tools/update-diffpatches.sh .
-      - name: Copy filter lists to gh-pages
+      - name: Copy filter lists to cdn
         run: |
           TMPFILE=$(mktemp -d)
           git clone --depth=1 https://github.com/uBlockO/Anti-Circumvention-Filterlist.git $TMPFILE
