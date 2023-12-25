@@ -211,4 +211,3 @@ sbs.com.au##+js(noxif, doubleclick)
 ||consensu.org^$important
 streamhub.to##+js(acis, $, adb)
 hentaimama.io##+js(rmnt,script,/_0x|adConfig/)
-www.youtube.com##+js(set, Object.prototype.adblock_detection, undefined)
