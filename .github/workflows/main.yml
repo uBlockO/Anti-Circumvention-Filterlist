@@ -28,7 +28,7 @@ jobs:
           TMPDIR=$(mktemp -d)
           git clone --depth=1 https://github.com/uBlockO/Anti-Circumvention-Filterlist.git $TMPDIR
           pushd $TMPDIR > /dev/null
-          ./tools/make-anticircumventionfilterlist.sh
+          chmod 755 ./tools/make-anticircumventionfilterlist.sh
           popd > /dev/null
           cp $TMPDIR/acf.txt ./acf.txt
       - name: Patch last-updated field
