@@ -23,12 +23,24 @@ jobs:
         uses: actions/checkout@v3
         with:
             ref: cdn
-      - name: Copy filter lists to cdn
+      - name: Generate version string
+        run: |
+          TAGNAME=$(date -u "+%-d.%-m.%Y.")$(date -u "+%H*60+%M" | bc)
+          echo "TAGNAME=$TAGNAME" >> $GITHUB_ENV
+          echo "Version string is $TAGNAME"
+      - name: Copy shell script from uBlockO/Anti-Circumvention-Filterlist
         run: |
           TMPDIR=$(mktemp -d)
-          git clone --depth=1 https://github.com/uBlockO/Anti-Circumvention-Filterlist.git $TMPDIR
-          pushd $TMPDIR > /dev/null
-          chmod 755 ./tools/make-anticircumventionfilterlist.sh
+          git clone --depth=1 --single-branch --branch=main https://github.com/uBlockO/Anti-Circumvention-Filterlist.git $TMPDIR
+          cp -v $TMPDIR/tools/make-diffpatch.sh .
+          cp -v $TMPDIR/tools/update-diffpatches.sh .      
+      - name: Copy filter lists to cdn
+        run: |
+          TMPFILE=$(mktemp -d)
+          git clone --depth=1 https://github.com/uBlockO/Anti-Circumvention-Filterlist.git $TMPFILE
+          pushd $TMPFILE > /dev/null
+          echo "*** Anti-Circumvention-Filterlist: Assembling acf.txt"
+          node ./tools/make-anticircumventionfilterlist.sh in=./tools/anti-circumvention-filterlist.template out=./acf.txt
           popd > /dev/null
           cp $TMPDIR/acf.txt ./acf.txt
       - name: Patch last-updated field
@@ -42,11 +54,24 @@ jobs:
               git checkout -q $f
             fi
           done
+      - name: Create new patch
+        run: |
+          chmod 755 ./make-diffpatch.sh
+          PATCHES_DIR="patches"
+          ./make-diffpatch.sh "${{ env.TAGNAME }}" "$PATCHES_DIR"
+      - name: Update existing patch
+        run: |
+          chmod 755 ./update-diffpatches.sh
+          PATCHES_DIR="patches"
+          FILTER_FILES=$(git ls-files --exclude-standard -- acf.txt)
+          ./update-diffpatches.sh "$GITHUB_REPOSITORY" "$PATCHES_DIR" "$FILTER_FILES"    
       - name: Commit changes (if any)
         run: |
-          if [[ -n $(git diff) ]]; then
-            git config user.name "gitHub-actions bot"
+          if [[ -z $(git diff --name-only --cached) ]]; then exit 0; fi
+            git config user.name "GitHub-Actions"
             git config user.email "<>"
-            git commit -m "Update modified filter lists"
+            git commit -m "Update modified filter lists to ${{ env.TAGNAME }}"
             git push origin cdn
+            git tag ${{ env.TAGNAME }}
+            git push origin ${{ env.TAGNAME }}
           fi
