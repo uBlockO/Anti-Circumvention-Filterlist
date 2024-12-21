@@ -215,3 +215,4 @@ hentaimama.io##+js(rmnt,script,/_0x|adConfig/)
 www.twitch.tv##.follow-panel-overlay,.tw-media-card-stat,#twilight-sticky-footer-root:remove()
 www.twitch.tv##div[class="Layout-sc-1xcs6mc-0"][hidden=""]:style(display:block !important)
 smsonline.cloud##^script[onerror]
+||hls.ttvnw.net/v1/segment/*.ts$xhr,method=post,3p
