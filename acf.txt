@@ -196,7 +196,6 @@ lowendbox.com##div.block:nth-of-type(4)
 celebjihad.com##[href^="https://go.admjmp.com/"]
 ||bshrdr.com^
 aiarticlespinner.co##+js(ce, .adsbygoogle adsbygoogle-noablate, display:none !important, ins)
-tweakers.net##+js(noxif, filters:max_bytes)
 fox.com##+js(noxif, adsbygoogle)
 ||smartwall.theglobeandmail.com^
 metacritic.com##.wait
@@ -217,4 +216,5 @@ www.twitch.tv##div[class="Layout-sc-1xcs6mc-0"][hidden=""]:style(display:block !
 smsonline.cloud##^script[onerror]
 ||hls.ttvnw.net/v1/segment/*.ts$xhr,method=post,3p
 vibe.com##.floating-preroll-ad
-vibe.com##+js(rmnt, script, admbenefits)
+th.gl##.bg-card:nth-of-type(4):style(left:-9999px !important)
+th.gl##.right-2.bottom-2.bg-card:style(visibility:collapse !important)
