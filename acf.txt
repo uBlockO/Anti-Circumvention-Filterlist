@@ -210,11 +210,9 @@ sbs.com.au##+js(noxif, doubleclick)
 ||consensu.org^$important
 streamhub.to##+js(acis, $, adb)
 hentaimama.io##+js(rmnt,script,/_0x|adConfig/)
-||ttvnw.net/v1/playlist$xhr,3p,replace=/#EXT-X-DATERANGE:ID="(stitched-ad|maf-ad|source|trigger)"\S+\n|#EXT-X-DATERANGE:ID=\S+?CLASS="twitch-(?:stream-source|trigger|maf-ad)"\S+\n|#EXT-X-DATERANGE:\S+?CLASS="twitch-ad-quartile".+?(?=(#EXT-X-DATERANGE|$))|(\n#EXT-X-DISCONTINUITY\s|#EXT-X-TWITCH-PREFETCH\S+)//gs
-www.twitch.tv##.follow-panel-overlay,.tw-media-card-stat,#twilight-sticky-footer-root:remove()
-www.twitch.tv##div[class="Layout-sc-1xcs6mc-0"][hidden=""]:style(display:block !important)
 smsonline.cloud##^script[onerror]
 ||hls.ttvnw.net/v1/segment/*.ts$xhr,method=post,3p
 vibe.com##.floating-preroll-ad
 th.gl##.bg-card:nth-of-type(4):style(left:-9999px !important)
 th.gl##.right-2.bottom-2.bg-card:style(visibility:collapse !important)
+looopings.nl##+js(trusted-replace-argument, document.getElementById, 0, json:"header", condition, /^[a-zA-Z]{12}$|^[a-z0-9A-Z]{25}$/)
